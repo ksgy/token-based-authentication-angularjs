@@ -26,7 +26,7 @@ angular.module('tokenBasedAuthenticationAngularjsApp')
             if (rejection != null && rejection.status === 401 && ($window.sessionStorage.token || Authentication.isAuthenticated)) {
                 delete $window.sessionStorage.token;
                 Authentication.isAuthenticated = false;
-                $location.path("/login");
+                $location.path("/");
             }
 
             return $q.reject(rejection);
