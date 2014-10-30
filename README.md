@@ -1,14 +1,13 @@
 token-based-authentication-angularjs
 ====================================
 
-The front-end part of token based authentication in AngularJS to NodeJS/Express
-
 
 How to install:
 
 After cloning the repository run inside the app folder
 
 >> npm install
+
 >> bower install
 
 Run the app
